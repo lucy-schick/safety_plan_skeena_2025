@@ -1,5 +1,5 @@
 ---
-title: "Safety Plan Peace 2025"
+title: "Safety Plan Skeena 2025"
 author: "Al Irvine"
 output:
   pagedown::html_letter:
@@ -8,10 +8,10 @@ output:
 links-to-footnotes: false
 paged-footnotes: false
 params:
-  repo_url: 'https://github.com/lucy-schick/safety_plan_peace_2025'
-  report_url: 'https://lucy-schick.github.io/safety_plan_peace_2025/'
-  job_name: '2025-077-sern-peace-fish-passage'
-  gis_project_name: "sern_peace_fwcp_2023"
+  repo_url: 'https://github.com/lucy-schick/safety_plan_skeena_2025'
+  report_url: 'https://lucy-schick.github.io/safety_plan_skeena_2025/'
+  job_name: '2025-076-sern-skeena-fraser-fish-passage'
+  gis_project_name: "sern_skeena_2023"
   update_packages: FALSE
   update_bib: TRUE
 bibliography: "`r if (params$update_bib) { rbbt::bbt_write_bib('references.bib', overwrite = TRUE); 'references.bib' } else 'references.bib'`"
@@ -35,7 +35,7 @@ Al Irvine
 New Graph Environment Ltd.  
 al@newgraphenvironment   
 250-777-1518  
-Date Original: 2025-07-16  
+Date Original: 2025-09-02  
 Date Revised: `r format(Sys.Date(), "%Y-%m-%d")` 
 :::
 
@@ -60,18 +60,22 @@ source('scripts/staticimports.R')
 project_region <- stringr::str_extract(params$repo_url, "(?<=safety_plan_)[^_]+")
 project_year <- stringr::str_match(params$repo_url, "safety_plan_[^_]+_([0-9]{4})")[,2]
 
+# No planning file for skeena 2025 - just going to old sites
 # This varies depending on the date the file was created
-gis_planning_file <- "planning_20250703.gpkg"
+# gis_planning_file <- "planning_20250703.gpkg"
 
 # Create links
 link_kml <- paste0(params$repo_url, '/raw/main/docs/sites_', project_region, '_', project_year, '_', format(Sys.Date(), '%Y%m%d'), '_kml_gpx.zip')
 link_pdf <- paste0(params$repo_url, '/blob/main/docs/safety_plan_sern_', project_region, '_', project_year, '.pdf')
-# We only have maps for parsnip
-link_fieldmaps <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/parsnip/'
+link_fieldmaps <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/bulkley/'
+link_fieldmaps2 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/kisp/'
+link_fieldmaps3 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/zymo/'
+link_fieldmaps4 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/morr/'
 
-## NEED TO UPDATE ACCOMODATIONS
-hotel1 <- "3396 Rosia Road, Prince George, BC V2K 4Y5"
-hotel2 <- "3990 Larisa Court, Prince George, BC V2K 0B1"
+# Accommodations and vehicles
+# Need als accom
+hotel1 <- ""
+hotel2 <- "1515 Main Street, Smithers, British Columbia, V0J 2N0"
 
 vehicle1 <- '2013 Toyota Tundra black w/flatdeck and yellow can-am quad'
 vehicle2 <- '2006 Pontiac Vibe red'
@@ -79,9 +83,17 @@ vehicle2 <- '2006 Pontiac Vibe red'
 
 
 ```{r info-hospitals}
-hospital_name <- 'University Hospital of Northern British Columbia'
-hospital_phone <- '250-565-2000'
-hospital_address <- '1475 Edmonton St., Prince George, BC V2M 1S2'
+hospital_name <- 'Houston Health Centre'
+hospital_phone <- '250-845-2294'
+hospital_address <- '3202 14 St, Houston, BC V0J 1Z0'
+
+hospital_name2 <- '(Smithers) Bulkley Valley District Hospital'
+hospital_phone2 <- '250-847-2611'
+hospital_address2 <- '3950 8 Ave, Smithers, BC V0J 2N0'
+
+hospital_name3 <- 'Wrinch Memorial Hospital - Hazelton'
+hospital_phone3 <- '250-842-5211'
+hospital_address3 <- '2510 Hwy 62, Hazelton, BC V0J 1Y0'
 
 ```
 
@@ -121,12 +133,20 @@ The latest version of this pdf can be downloaded [here](`r knitr::asis_output(li
 
 <br>
 
-This project has two primary goals. The first is to conduct fish passage (Phase 1) and habitat confirmation (Phase 2) assessments within the Nation River watershed group. The second goal is to implement baseline monitoring at previously assessed and/or remediated crossings in the Parsnip, Crooked, and Carp River watershed groups. Fieldwork will include electrofishing at permitted sites and collection of environmental DNA (eDNA) samples. 
+The goal of this fieldwork is to evaluate fish passage and establish baseline data. We will be completing fish passage (Phase 1) and habitat confirmation (Phase 2) assessments, as well as conducting baseline monitoring at previously assessed and/or remediated crossings in the  Bulkley, Morice, Kispiox, and Zymoetz River watershed groups. Fieldwork will include electrofishing at permitted sites and collection of environmental DNA (eDNA) samples.
 
 <br>
 
-Field activities will be completed with support from crews from McLeod Lake Indian Band and other partner organizations. A summary of potential sites for fish passage assessments, habitat confirmation assessments, and electrofishing is provided in Table \@ref(tab:tab-electrofishing-sites) and Figure \@ref(fig:map-prep). Google Earth (KML) and Garmin (GPX) files for the proposed sites are available for download [here](`r knitr::asis_output(link_kml)`). Georeferenced pdf maps for select watershed groups can be accessed and downloaded [here](`r knitr::asis_output(link_fieldmaps)`).
+Field activities will be completed with support from the Office of the Wet'suwet'en, Gitsxan Environmental Services, and other partner organizations. A summary of potential sites for fish passage assessments, habitat confirmation assessments, and electrofishing is provided in Table \@ref(tab:tab-electrofishing-sites) and Figure \@ref(fig:map-prep). Google Earth (KML) and Garmin (GPX) files for the proposed sites are available for download [here](`r knitr::asis_output(link_kml)`). Georeferenced pdf maps for select watershed groups can be accessed and downloaded below:
 
+
+- https://hillcrestgeo.ca/outgoing/fishpassage/projects/bulkley/
+- https://hillcrestgeo.ca/outgoing/fishpassage/projects/kisp/
+- https://hillcrestgeo.ca/outgoing/fishpassage/projects/zymo/
+- https://hillcrestgeo.ca/outgoing/fishpassage/projects/morr/
+
+<br>
+<br>
 <br>
 
 ## New Graph Environment Employee Information {.unnumbered}
@@ -146,17 +166,17 @@ Accommodation: `r hotel2  `
 
 ## Crew Members {.unnumbered}
 
-New Graph Employees Al Irvine and Lucy Schick will be joined by crews from McLeod Lake Indian Band. All crew member information and emergency contacts can be found below.
+New Graph Employees Al Irvine and Lucy Schick will be joined by crews from the Office of the Wet'suwet'en and Gitsxan Environmental Services. All crew member information and emergency contacts can be found below.
 
 <br>
 
 ```{r tab-crew}
 crew_ids <- c('airvine', 
               'lschick', 
-              'jisadore',
-              # 'tsalonas',
-              'bprince',
-              'jdemont')
+              'vjoseph',
+              'tpierre',
+              'jolson',
+              'jdoyon')
 
 tab_crew <- projects |>  
   purrr::pluck('crew_contacts') |>  
@@ -171,7 +191,7 @@ tab_crew |>
                             font_size = font_set)
 ```
 
-<br>
+\newpage
 
 ## Equipment Checklists {.unnumbered}
 
@@ -187,8 +207,6 @@ MINIMUM REQUIREMENTS FOR EACH CREW MEMBER INCLUDES GOOD QUALITY AND APPROPRIATEL
 
 MINIMUM REQUIREMENTS FOR FIELD TRUCKS INCLUDE A QUALITY RADIO APPROPRIATE FOR FOREST SERVICE ROADS, OFF-ROAD CAPABLE TIRES IN GOOD CONDITION, SPARE TIRE, JACK, AND TOOLS.
 
-<br>
-<br>
 <br>
 
 
@@ -211,10 +229,6 @@ tab_eq_pers |>
     full_width = TRUE,
     font_size = font_set
   )
-
-
-
-
 ```
 
 <br>
@@ -264,6 +278,9 @@ tab_eq_edna |>
 ```
 
 <br>
+<br>
+<br>
+<br>
 
 ```{r equip-cabin}
 
@@ -307,7 +324,7 @@ eq |>
 
 ```
 
-<br>
+\newpage
 
 ## Nearest Hospitals {.unnumbered}
 
@@ -319,6 +336,64 @@ ggmap::register_google(key = Sys.getenv('GOOG_API_KEY'))
 
 #define the area of the base map by using a bounding box 
 mybasemap <- ggmap::get_map(location = hospital_address,
+                     source = "google",
+                     zoom = 16,
+                    maptype = "roadmap")  
+
+# Extract the center coordinates from the map object
+center_lon <- attr(mybasemap, "bb")$ll.lon + (attr(mybasemap, "bb")$ur.lon - attr(mybasemap, "bb")$ll.lon) / 2
+center_lat <- attr(mybasemap, "bb")$ll.lat + (attr(mybasemap, "bb")$ur.lat - attr(mybasemap, "bb")$ll.lat) / 2
+
+# Plot the map with the hospital symbol at the center
+ggmap::ggmap(mybasemap) +
+  geom_text(aes(x = center_lon, y = center_lat), 
+            label = "H", 
+            size = 10, 
+            colour = "red", 
+            fontface = "bold")
+
+
+
+```
+
+
+```{r hospital-2, fig.cap=my_caption, fig.width=6, eval=TRUE}
+my_caption = paste(hospital_name2, hospital_address2, hospital_phone2, sep = ' - ')
+
+##register google key defined in 'R/private_info.R' file
+ggmap::register_google(key = Sys.getenv('GOOG_API_KEY'))
+
+#define the area of the base map by using a bounding box 
+mybasemap <- ggmap::get_map(location = hospital_address2,
+                     source = "google",
+                     zoom = 16,
+                    maptype = "roadmap")  
+
+# Extract the center coordinates from the map object
+center_lon <- attr(mybasemap, "bb")$ll.lon + (attr(mybasemap, "bb")$ur.lon - attr(mybasemap, "bb")$ll.lon) / 2
+center_lat <- attr(mybasemap, "bb")$ll.lat + (attr(mybasemap, "bb")$ur.lat - attr(mybasemap, "bb")$ll.lat) / 2
+
+# Plot the map with the hospital symbol at the center
+ggmap::ggmap(mybasemap) +
+  geom_text(aes(x = center_lon, y = center_lat), 
+            label = "H", 
+            size = 10, 
+            colour = "red", 
+            fontface = "bold")
+
+
+
+```
+
+
+```{r hospital-3, fig.cap=my_caption, fig.width=6, eval=TRUE}
+my_caption = paste(hospital_name3, hospital_address3, hospital_phone3, sep = ' - ')
+
+##register google key defined in 'R/private_info.R' file
+ggmap::register_google(key = Sys.getenv('GOOG_API_KEY'))
+
+#define the area of the base map by using a bounding box 
+mybasemap <- ggmap::get_map(location = hospital_address3,
                      source = "google",
                      zoom = 16,
                     maptype = "roadmap")  
@@ -355,11 +430,11 @@ We will be driving on forest service roads where it is essential to exercise cau
 
 ## Field Plan {.unnumbered}
 
-Fieldwork will focus on baseline monitoring in the Parsnip, Crooked, and Carp River watershed groups, and fish passage (Phase 1) and habitat confirmation (Phase 2) assessments in the Nation River watershed group. Activities will include electrofishing at permitted sites and the collection of environmental DNA (eDNA) samples. Crews from McLeod Lake Indian Band and other partners will support the fieldwork. 
+Fieldwork will focus on fish passage (Phase 1) assessments, habitat confirmation (Phase 2) assessments, and baseline monitoring in the Bulkley, Morice, Kispiox, and Zymoetz River watershed groups. Activities will include electrofishing at permitted sites and the collection of environmental DNA (eDNA) samples. Crews from the Office of the Wet'suwet'en and Gitsxan Environmental Services will support the fieldwork. 
 
 <br>
 
-Fieldwork methods will result in products feeding reporting formats such as our [2024](https://www.newgraphenvironment.com/fish_passage_peace_2024_reporting/) and [2023](https://www.newgraphenvironment.com/fish_passage_peace_2023_reporting/) reports. We generally follow procedures in:
+Fieldwork methods will result in products feeding reporting formats such as our [2024](https://www.newgraphenvironment.com/fish_passage_skeena_2024_reporting/) and [2023](https://www.newgraphenvironment.com/fish_passage_skeena_2023_reporting/) reports. We generally follow procedures in:
 
 -   [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf) [@ministryofenvironment2011Fieldassessment]
 
@@ -449,7 +524,7 @@ table_sites <- readr::read_csv(paste0("data/", name_sites_csv)) |>
   #               utm_northing,
   #               bt_network_km,
   #               bt_spawning_km,
-  #               bt_rearing_km,
+  #               st_rearing_km,
   #               watershed_group_code,
   #               pscis_assessment_comment,
   #               my_priority,
@@ -464,30 +539,13 @@ table_sites <- readr::read_csv(paste0("data/", name_sites_csv)) |>
 conn <- fpr::fpr_db_conn()
 
 ids <- c(
-  #arctic
-  125000, 
-  #fern
-  125261, 
-  # table 21k
-  125231,
-  #missinka remediated
-  125179,
-  ##missinka reference
-  125180,
-  ##trib to Kerry Lake where BCTS is deactivating.  Good flow
-  198692,
-  ##trib to McLeod with large outlet, ok flow and decent looking habitat. On reserve and close to community
-  198668,
-  ##trib to McLeod Lake right at the store and walking distance from community.  
-  ## good site for sampling to get people interested
-  #large outlet drop, ok flow and decent looking habitat. On reserve
-  198667
+
   )
 
 # grab the crossings data 
 table_sites <- fpr::fpr_db_query(
   glue::glue_sql("SELECT * FROM bcfishpass.crossings_vw WHERE stream_crossing_id IN ({ids*})", .con = conn)) |> 
-  select(id = stream_crossing_id, stream_name = pscis_stream_name, gnis_stream_name, utm_zone, utm_easting, utm_northing, bt_network_km, bt_spawning_km, bt_rearing_km, watershed_group_code, pscis_assessment_comment
+  select(id = stream_crossing_id, stream_name = pscis_stream_name, gnis_stream_name, utm_zone, utm_easting, utm_northing, bt_network_km, bt_spawning_km, st_rearing_km, watershed_group_code, pscis_assessment_comment
          ) |>
   dplyr::mutate(dplyr::across(dplyr::starts_with('bt_'), ~round(., 1))) |> 
   mutate(stream_name = case_when(
@@ -523,9 +581,12 @@ path_gps <- paste0("mapping/sites_", project_region,"_", project_year, '_', form
 
 #make a gpx file for loading into the gps'
 table_sites |> 
-  dplyr::mutate(desc = paste0("bt_rearing - ", bt_rearing_km, "km. ", my_priority_comments),
+  # Skeena 2025 - no planning file so no priority comments
+  # dplyr::mutate(desc = paste0("st_rearing - ", st_rearing_km, "km. ", my_priority_comments),
+  dplyr::mutate(desc = paste0("st_rearing - ", st_rearing_km, "km. "),
          # make a name that tells a story so we see it on the gps
-         name = paste0(id, " - ", my_priority)) |> 
+         # name = paste0(id, " - ", my_priority)) |> 
+         name = paste0(id)) |>
   dplyr::distinct(id, .keep_all = T) |>
   dplyr::rename(geometry = geom) |> 
   dplyr::select(name, desc, geometry) |> 
@@ -539,8 +600,9 @@ table_sites |>
 ##make a kml for adding to the georef pdf and sharing with stakeholders
 
 table_sites |> 
-  dplyr::mutate(name = paste0(id, " - ", my_priority)) |> 
-    # dplyr::mutate(name = paste0(id, " - ", my_priority, " - MoTi_ID = ", moti_chris_culvert_id)) |> 
+    # Skeena 2025 - no planning file so no priority comments
+  # dplyr::mutate(name = paste0(id, " - ", my_priority)) |> 
+  dplyr::mutate(name = paste0(id)) |> 
   sf::st_write(dsn = paste0("mapping/sites_", project_region,"_", project_year, '_', format(Sys.Date(), "%Y%m%d"), ".kml"), delete_dsn = TRUE, quiet = TRUE)
 
 
