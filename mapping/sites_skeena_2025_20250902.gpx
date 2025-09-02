@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 3.8.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+<bounds minlat="54.135837765771647" minlon="-127.694190990990734" maxlat="55.314273741664806" maxlon="-126.632239756396629"/>                                   
+</metadata>
+<wpt lat="54.572226338786479" lon="-126.808967546992804">
+  <name>123377</name>
+  <desc>st_rearing - 9.5km. </desc>
+</wpt>
+<wpt lat="54.236139138566081" lon="-126.632239756396629">
+  <name>197640</name>
+  <desc>st_rearing - 4.7km. </desc>
+</wpt>
+<wpt lat="55.03450973847243" lon="-127.344780879027084">
+  <name>197960</name>
+  <desc>st_rearing - 14.8km. </desc>
+</wpt>
+<wpt lat="54.360597793255032" lon="-126.792127670421607">
+  <name>197962</name>
+  <desc>st_rearing - 4.9km. </desc>
+</wpt>
+<wpt lat="54.135837765771647" lon="-127.111667826222245">
+  <name>198064</name>
+  <desc>st_rearing - 0.8km. </desc>
+</wpt>
+<wpt lat="55.314273741664806" lon="-127.694190990990734">
+  <name>198217</name>
+  <desc>st_rearing - 0.5km. </desc>
+</wpt>
+</gpx>

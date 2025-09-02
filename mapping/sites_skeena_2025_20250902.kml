@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sites_skeena_2025_20250902" id="sites_skeena_2025_20250902">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="st_network_km" type="float"></SimpleField>
+	<SimpleField name="st_spawning_km" type="float"></SimpleField>
+	<SimpleField name="st_rearing_km" type="float"></SimpleField>
+	<SimpleField name="utm_zone" type="float"></SimpleField>
+	<SimpleField name="utm_easting" type="float"></SimpleField>
+	<SimpleField name="utm_northing" type="float"></SimpleField>
+	<SimpleField name="mapsheet" type="string"></SimpleField>
+	<SimpleField name="watershed_group_code" type="string"></SimpleField>
+	<SimpleField name="pscis_assessment_comment" type="string"></SimpleField>
+	<SimpleField name="stream_name" type="string"></SimpleField>
+	<SimpleField name="observedspp_upstr" type="string"></SimpleField>
+	<SimpleField name="wsc_code" type="string"></SimpleField>
+	<SimpleField name="long" type="float"></SimpleField>
+	<SimpleField name="lat" type="float"></SimpleField>
+</Schema>
+<Folder><name>sites_skeena_2025_20250902</name>
+  <Placemark>
+	<name>123377</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+		<SimpleData name="id">123377</SimpleData>
+		<SimpleData name="st_network_km">33.5</SimpleData>
+		<SimpleData name="st_spawning_km">4.9</SimpleData>
+		<SimpleData name="st_rearing_km">9.5</SimpleData>
+		<SimpleData name="utm_zone">9</SimpleData>
+		<SimpleData name="utm_easting">641633</SimpleData>
+		<SimpleData name="utm_northing">6049398</SimpleData>
+		<SimpleData name="mapsheet">093L.113</SimpleData>
+		<SimpleData name="watershed_group_code">BULK</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Debris is partially blocking one of the two pipes. Historic washouts on road at this site.  Landowner reports stream diverted downstream &amp;gt;50 years ago and crosses farmers field in ditched channel.  15:12</SimpleData>
+		<SimpleData name="stream_name">Thompson Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">CT;DV;RB</SimpleData>
+		<SimpleData name="wsc_code">460-517700-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-126.808973544138</SimpleData>
+		<SimpleData name="lat">54.5722250886153</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-126.808967546993,54.5722263387865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>197640</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+		<SimpleData name="id">197640</SimpleData>
+		<SimpleData name="st_network_km">20</SimpleData>
+		<SimpleData name="st_spawning_km">2</SimpleData>
+		<SimpleData name="st_rearing_km">4.7</SimpleData>
+		<SimpleData name="utm_zone">9</SimpleData>
+		<SimpleData name="utm_easting">654312</SimpleData>
+		<SimpleData name="utm_northing">6012383</SimpleData>
+		<SimpleData name="mapsheet">093L.109</SimpleData>
+		<SimpleData name="watershed_group_code">BULK</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Large tributary on section of tributary connected to salmon bearing Buck Creek.  Fish rising in outlet pool (estimated 130mm).  Some cattle access points downstream.</SimpleData>
+		<SimpleData name="stream_name">Tributary To Buck Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">RB</SimpleData>
+		<SimpleData name="wsc_code">460-636000-36664-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-126.6322395857</SimpleData>
+		<SimpleData name="lat">54.236136607527</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-126.632239756397,54.2361391385661</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>197960</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+		<SimpleData name="id">197960</SimpleData>
+		<SimpleData name="st_network_km">27</SimpleData>
+		<SimpleData name="st_spawning_km">7.4</SimpleData>
+		<SimpleData name="st_rearing_km">14.8</SimpleData>
+		<SimpleData name="utm_zone">9</SimpleData>
+		<SimpleData name="utm_easting">605786</SimpleData>
+		<SimpleData name="utm_northing">6099884</SimpleData>
+		<SimpleData name="mapsheet">093M.102</SimpleData>
+		<SimpleData name="watershed_group_code">BULK</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Outlet is cracked and drops. Inlet embedded to 2/3 way. 10:33</SimpleData>
+		<SimpleData name="stream_name">Corya Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">DV;RB</SimpleData>
+		<SimpleData name="wsc_code">460-185400-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-127.344786706429</SimpleData>
+		<SimpleData name="lat">55.0345079604225</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-127.344780879027,55.0345097384724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>197962</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+		<SimpleData name="id">197962</SimpleData>
+		<SimpleData name="st_network_km">6.1</SimpleData>
+		<SimpleData name="st_spawning_km">3</SimpleData>
+		<SimpleData name="st_rearing_km">4.9</SimpleData>
+		<SimpleData name="utm_zone">9</SimpleData>
+		<SimpleData name="utm_easting">643460</SimpleData>
+		<SimpleData name="utm_northing">6025890</SimpleData>
+		<SimpleData name="mapsheet">093L.109</SimpleData>
+		<SimpleData name="watershed_group_code">MORR</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Partial inlet drop of varying height due to large woody debris and boulders. Side channel dry, must be seasonal use only. 17:47</SimpleData>
+		<SimpleData name="stream_name">Peacock Creek</SimpleData>
+		<SimpleData name="wsc_code">460-600600-07100-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-126.79212873009</SimpleData>
+		<SimpleData name="lat">54.3605986792094</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-126.792127670422,54.360597793255</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>198064</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+		<SimpleData name="id">198064</SimpleData>
+		<SimpleData name="st_network_km">5</SimpleData>
+		<SimpleData name="st_spawning_km">0</SimpleData>
+		<SimpleData name="st_rearing_km">0.8</SimpleData>
+		<SimpleData name="utm_zone">9</SimpleData>
+		<SimpleData name="utm_easting">623369</SimpleData>
+		<SimpleData name="utm_northing">6000283</SimpleData>
+		<SimpleData name="mapsheet">093L.103</SimpleData>
+		<SimpleData name="watershed_group_code">MORR</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Habitat confirmation conducted.  Fish observed (150mm).  9:25</SimpleData>
+		<SimpleData name="stream_name">Tributary To Lamprey Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">DV</SimpleData>
+		<SimpleData name="wsc_code">460-600600-36400-26300-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-127.111667968473</SimpleData>
+		<SimpleData name="lat">54.1358376201117</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-127.111667826222,54.1358377657716</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>198217</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+		<SimpleData name="id">198217</SimpleData>
+		<SimpleData name="st_network_km">5.7</SimpleData>
+		<SimpleData name="st_spawning_km">0.2</SimpleData>
+		<SimpleData name="st_rearing_km">0.5</SimpleData>
+		<SimpleData name="utm_zone">9</SimpleData>
+		<SimpleData name="utm_easting">582874</SimpleData>
+		<SimpleData name="utm_northing">6130541</SimpleData>
+		<SimpleData name="mapsheet">093M.106</SimpleData>
+		<SimpleData name="watershed_group_code">KISP</SimpleData>
+		<SimpleData name="pscis_assessment_comment">The culvert was replaced with a bridge, featuring excellent construction with a wide channel beneath the structure. Riprap has been covered with soil to promote vegetation growth, and significant riparian restoration is underway with trees and shrubs being planted. Overall, this is a well-executed replacement project. Monitoring work was conducted and is included in the 2024 report.</SimpleData>
+		<SimpleData name="stream_name">Sik-E-Dakh</SimpleData>
+		<SimpleData name="wsc_code">400-448500-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-127.694191956341</SimpleData>
+		<SimpleData name="lat">55.314277880887</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-127.694190990991,55.3142737416648</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
