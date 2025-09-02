@@ -1,7 +1,7 @@
 
 # just run this if we want latest util function.  Really just an example here
 staticimports::import()
-
+source('scripts/staticimports.R')
 
 ###!!!!!!!!!!!!!!!!! was getting a build failyre with chrome print so need to create a dummy favicon.ico file in the main directory (`touch favicon.ico` in terminal)
 {
