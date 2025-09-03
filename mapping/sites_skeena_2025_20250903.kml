@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
-<Schema name="sites_skeena_2025_20250902" id="sites_skeena_2025_20250902">
+<Schema name="sites_skeena_2025_20250903" id="sites_skeena_2025_20250903">
 	<SimpleField name="id" type="float"></SimpleField>
 	<SimpleField name="st_network_km" type="float"></SimpleField>
 	<SimpleField name="st_spawning_km" type="float"></SimpleField>
@@ -18,10 +18,10 @@
 	<SimpleField name="long" type="float"></SimpleField>
 	<SimpleField name="lat" type="float"></SimpleField>
 </Schema>
-<Folder><name>sites_skeena_2025_20250902</name>
+<Folder><name>sites_skeena_2025_20250903</name>
   <Placemark>
 	<name>123377</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250903">
 		<SimpleData name="id">123377</SimpleData>
 		<SimpleData name="st_network_km">33.5</SimpleData>
 		<SimpleData name="st_spawning_km">4.9</SimpleData>
@@ -42,7 +42,7 @@
   </Placemark>
   <Placemark>
 	<name>197640</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250903">
 		<SimpleData name="id">197640</SimpleData>
 		<SimpleData name="st_network_km">20</SimpleData>
 		<SimpleData name="st_spawning_km">2</SimpleData>
@@ -63,7 +63,7 @@
   </Placemark>
   <Placemark>
 	<name>197960</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250903">
 		<SimpleData name="id">197960</SimpleData>
 		<SimpleData name="st_network_km">27</SimpleData>
 		<SimpleData name="st_spawning_km">7.4</SimpleData>
@@ -84,7 +84,7 @@
   </Placemark>
   <Placemark>
 	<name>197962</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250903">
 		<SimpleData name="id">197962</SimpleData>
 		<SimpleData name="st_network_km">6.1</SimpleData>
 		<SimpleData name="st_spawning_km">3</SimpleData>
@@ -104,7 +104,7 @@
   </Placemark>
   <Placemark>
 	<name>198064</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250903">
 		<SimpleData name="id">198064</SimpleData>
 		<SimpleData name="st_network_km">5</SimpleData>
 		<SimpleData name="st_spawning_km">0</SimpleData>
@@ -125,7 +125,7 @@
   </Placemark>
   <Placemark>
 	<name>198217</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250902">
+	<ExtendedData><SchemaData schemaUrl="#sites_skeena_2025_20250903">
 		<SimpleData name="id">198217</SimpleData>
 		<SimpleData name="st_network_km">5.7</SimpleData>
 		<SimpleData name="st_spawning_km">0.2</SimpleData>

@@ -74,7 +74,7 @@ link_fieldmaps4 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/morr/'
 
 # Accommodations and vehicles
 # Need als accom
-hotel1 <- ""
+hotel1 <- "7 Avenue A3885, Smithers, BC,  V0J 2N3"
 hotel2 <- "1515 Main Street, Smithers, British Columbia, V0J 2N0"
 
 vehicle1 <- '2013 Toyota Tundra black w/flatdeck and yellow can-am quad'
