@@ -137,7 +137,7 @@ The goal of this fieldwork is to evaluate fish passage and establish baseline da
 
 <br>
 
-Field activities will be completed with support from the Office of the Wet'suwet'en, Gitsxan Environmental Services, and other partner organizations. A summary of potential sites for fish passage assessments, habitat confirmation assessments, and electrofishing is provided in Table \@ref(tab:tab-electrofishing-sites) and Figure \@ref(fig:map-prep). Google Earth (KML) and Garmin (GPX) files for the proposed sites are available for download [here](`r knitr::asis_output(link_kml)`). Georeferenced pdf maps for select watershed groups can be accessed and downloaded below:
+Field activities will be completed with support from the Office of the Wet'suwet'en. A summary of potential sites for fish passage assessments, habitat confirmation assessments, and electrofishing is provided in Table \@ref(tab:tab-electrofishing-sites) and Figure \@ref(fig:map-prep). Google Earth (KML) and Garmin (GPX) files for the proposed sites are available for download [here](`r knitr::asis_output(link_kml)`). Georeferenced pdf maps for select watershed groups can be accessed and downloaded below:
 
 
 - https://hillcrestgeo.ca/outgoing/fishpassage/projects/bulkley/
@@ -166,7 +166,7 @@ Accommodation: `r hotel2  `
 
 ## Crew Members {.unnumbered}
 
-New Graph Employees Al Irvine and Lucy Schick will be joined by crews from the Office of the Wet'suwet'en and Gitsxan Environmental Services. All crew member information and emergency contacts can be found below.
+New Graph Employees Al Irvine and Lucy Schick will be joined by crews from the Office of the Wet'suwet'en. All crew member information and emergency contacts can be found below.
 
 <br>
 
@@ -174,9 +174,7 @@ New Graph Employees Al Irvine and Lucy Schick will be joined by crews from the O
 crew_ids <- c('airvine', 
               'lschick', 
               'vjoseph',
-              'tpierre',
-              'jolson',
-              'jdoyon')
+              'tpierre')
 
 tab_crew <- projects |>  
   purrr::pluck('crew_contacts') |>  
@@ -430,7 +428,7 @@ We will be driving on forest service roads where it is essential to exercise cau
 
 ## Field Plan {.unnumbered}
 
-Fieldwork will focus on fish passage (Phase 1) assessments, habitat confirmation (Phase 2) assessments, and baseline monitoring in the Bulkley, Morice, Kispiox, and Zymoetz River watershed groups. Activities will include electrofishing at permitted sites and the collection of environmental DNA (eDNA) samples. Crews from the Office of the Wet'suwet'en and Gitsxan Environmental Services will support the fieldwork. 
+Fieldwork will focus on fish passage (Phase 1) assessments, habitat confirmation (Phase 2) assessments, and baseline monitoring in the Bulkley, Morice, Kispiox, and Zymoetz River watershed groups. Activities will include electrofishing at permitted sites and the collection of environmental DNA (eDNA) samples. Crews from the Office of the Wet'suwet'en will support the fieldwork. 
 
 <br>
 
